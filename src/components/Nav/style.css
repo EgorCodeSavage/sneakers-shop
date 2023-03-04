@@ -1,0 +1,86 @@
+.navbar_container {
+    margin: 0 auto;
+    max-width: 930px;
+    width: 100%;
+}
+.navbar_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px;
+}
+.navgar_logo {
+    width: 55px;
+    height: 55px;
+}
+/*      MENU     */
+.navbar_menu {
+    list-style-type: none;
+    display: flex;
+}
+.navbar_menu li {
+    margin-right: 80px;
+
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
+.navlink_nav {
+    text-decoration: none;
+    margin-right: 80px;
+}
+.dot {
+    background-color: #FF3C78;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.isActive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #FF3C78;
+    
+}
+.navbar_menu li:last-child {
+    margin-right: 0;
+}
+
+/*  ICONS    */
+.navbar_icons {
+    list-style-type: none;
+    display: flex;
+}
+.navbar_icons li {
+    cursor: pointer;
+    margin-right: 50px;
+}
+.navbar_icons li button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.search_icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cart_icon {
+    position: relative;
+}
+.cart_itmes {
+    position: absolute;
+    left: 15px;
+    bottom: -4px;
+
+    font-size: 12px;
+    color: #ffffff;
+
+    border-radius: 50%;
+    padding: 0 3.5px;
+    background-color:#FF3C78;
+}
