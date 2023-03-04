@@ -84,3 +84,97 @@
     padding: 0 3.5px;
     background-color:#FF3C78;
 }
+/*      BURGER       */
+.tablet_navbar {
+    display: ;
+}
+.tablet_burger-- {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+.burger_line1-- {
+    background-color: black;
+    width: 30px;
+    height: 2px;
+    
+    top: 10px;
+    position: absolute;
+}
+.burger_line1--active {
+    background-color: black;
+    width: 30px;
+    height: 2px;
+    
+    transform: rotate(45deg);
+    position: absolute;
+}
+.burger_line2-- {
+    background-color: black;
+    width: 30px;
+    height: 2px;
+
+    bottom: 10px;
+    position: absolute;
+}
+.burger_line2--active {
+    background-color: black;
+    width: 30px;
+    height: 2px;
+    transform: rotate(135deg);
+    position: absolute;
+}
+.tablet_burger--active {
+
+}
+.tablet_burger_inner {
+    display: none;
+}
+
+
+/*  MEDIA    */
+
+/*      1200PX      PC       */
+@media (max-width: 1200px) {
+    .navbar_menu li {
+        margin-right: 40px;
+    
+        font-size: 18px;
+        font-weight: 500;
+        
+        
+    }
+    .navlink_nav {
+        text-decoration: none;
+        margin-right: 40px;
+    }
+}
+
+/*      900PX       LAPTOP   */
+@media (max-width:992px) {
+    .navbar_menu li {
+        margin-right: 20px;
+    
+        font-size: 18px;
+        font-weight: 500;
+        
+        
+    }
+    .navlink_nav {
+        text-decoration: none;
+        margin-right: 20px;
+    }
+}
+/*      768PX   TABLETS      */
+@media (max-width: 768px) {
+    .navbar_menu {
+        display: none;
+    }
+    .navbar_icons {
+        display: none;
+    }
+}
