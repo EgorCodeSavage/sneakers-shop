@@ -1,0 +1,250 @@
+.home_inner {
+    margin-top: 140px;
+    display: flex;
+}
+/* LEFT SIDE */
+.home_info {
+    width: 60%;
+}
+.home_title {
+    font-size: 72px;
+    font-weight: 700;
+
+    color: #0A083A;
+}
+.home_text {
+    max-width: 430px;
+    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+
+    margin: 50px 0;
+
+    color: #6C6B6B;
+}
+.home_buttons {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 80px;
+}
+.home_buttons button {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    padding: 12px 50px;
+    border: none;
+    border-radius: 4px;
+    background: #FF3C78;
+    
+    margin-right: 50px;
+}
+.button_favorite--active {
+    cursor: pointer;
+}
+.home_benefites {
+    display: flex;
+}
+.free_shipping {
+    display: flex;
+    align-items: center;
+
+    margin-right: 50px;
+}
+.free_shipping img {
+    margin-right: 15px;
+}
+.free_returns {
+    display: flex;
+    align-items: center;
+}
+.free_returns img {
+    margin-right: 15px;
+}
+
+/*  RIGHT SIDE   */
+.home_sneaker {
+    width: 40%;
+}
+/* SNEAKER PHOTO */
+.sneaker_photo {
+    position: relative;
+}
+.bgcimg {
+    position: absolute;
+    left: 0;
+    top: -80px;
+    z-index: 1;
+
+    height: 568px;
+    width: 505px;
+}
+.sneaker {
+    position: absolute;
+    left: -50px;
+    top: -120px;
+    z-index: 2;
+
+    height: 550px;
+    width: 555px;
+}
+.locker--notactive {
+    position: absolute;
+    left: 90px;
+    top: 220px;
+    z-index: 4;
+
+    border: none;
+    background: none;
+
+    cursor: pointer;
+}
+.coment {
+    position: absolute;
+    left: -170px;
+    top: 230px;
+    z-index: 3;
+
+}
+/* SNEAKER SLIDER */
+.sneaker_sliedr {
+    display: flex;
+    padding-top: 500px;
+    padding-left: 40px;
+}
+.sneaker_sliedr button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.sneaker_left {
+    margin-right: 10px;
+}
+
+/*  MEDIA    */
+
+
+/*      1360PX      PC       */
+@media (max-width: 1360px) {
+    .home_title {
+        font-size: 54px;
+        font-weight: 700;
+    }
+    .bgcimg {
+        height: 468px;
+        width: 405px;
+    }
+    .sneaker {
+        height: 450px;
+        width: 455px;
+    }
+    .locker--notactive {
+        left: 200px;
+        top: 130px;
+    }
+    .coment {
+        left: -50px;
+        top: 145px;
+    }
+
+}
+/*      900PX       LAPTOP   */
+@media (max-width:992px) {
+    .home_title {
+        font-size: 44px;
+        font-weight: 700;
+    }
+    .home_text {
+        width: 330px;
+    }
+    .bgcimg {
+        height: 368px;
+        width: 305px;
+    }
+    .sneaker {
+        height: 350px;
+        width: 355px;
+    }
+    .locker--notactive {
+        left: 200px;
+        top: 130px;
+    }
+    .coment {
+        left: -50px;
+        top: 145px;
+    }
+
+
+}
+/*      768PX   TABLETS      */
+@media (max-width: 768px) {
+   .home_inner {
+    padding: 0 20px;
+   }
+
+}
+/*  60PX PHONES */
+@media (max-width: 600px) {
+    .home_inner {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+        margin-top: 40px;
+    }
+    .home_info {
+        width: 100%;
+    }
+    .home_title {
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+    .home_text {
+        width: 100%;
+        text-align: center;
+    }
+    .home_buttons {
+        justify-content: center;
+    }
+    .home_buttons button {
+        padding: 12px 20px;
+        
+        margin-right: 32px;
+    }
+    .home_benefites {
+        display: block;
+    }
+    .free_shipping {
+        margin-bottom: 16px;
+    }
+    .home_sneaker {
+        margin-top: 100px;
+    }
+    .bgcimg {
+        height: 368px;
+        width: 305px;
+        left: -50px;
+    }
+    .sneaker {
+        height: 250px;
+        width: 255px;
+        left: -50px;
+        top: -40px;
+    }
+    .locker--notactive {
+        left: 130px;
+        top: 100px;
+    }
+    .coment {
+        left: -120px;
+        top: 105px;
+    }
+    .sneaker_sliedr {
+        padding-top: 300px;
+    }
+
+}

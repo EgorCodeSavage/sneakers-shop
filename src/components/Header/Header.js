@@ -1,16 +1,16 @@
 import "./style.css"
 
-import favorite from "./../img/Favorite.png"
-import complete from "./../img/complete.png"
-import img01 from "./../img/img01.png"
-import sneaker from "./../img/sneaker.png"
-import arrowactive from "./../img/arrow active.png"
-import arrownotactive from "./../img/arrow notactive.png"
-import locker from "./../img/locker.png"
-import coment from "./../img/coment.png"
+import favorite from "./img/Favorite.png"
+import complete from "./img/complete.png"
+import img01 from "./img/img01.png"
+import sneaker from "./img/sneaker.png"
+import arrowactive from "./img/arrow active.png"
+import arrownotactive from "./img/arrow notactive.png"
+import locker from "./img/locker.png"
+import coment from "./img/coment.png"
 
 const Header = () => {
-    return ( 
+    return (  
         <div className="home_inner">
             <div className="home_info">
                 <div className="home_title">Get your awesome <br/>sneakers.</div>

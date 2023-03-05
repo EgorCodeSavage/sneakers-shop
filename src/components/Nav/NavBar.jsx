@@ -53,11 +53,11 @@ const NavBar = () => {
                     </li>
                 </ul>
                 <div className="tablet_navbar">
-                    <button onClick={getBurgerActive} className="tablet_burger--">
+                    <button onClick={getBurgerActive} className="tablet_burger">
                         <div className={`burger_line1--${burgerActive ? "active" : ""}`}></div>
                         <div className={`burger_line2--${burgerActive ? "active" : ""}`}></div>
                     </button>
-                    <div className="tablet_burger_inner">
+                    <div className={`tablet_burger_inner--${burgerActive ? "active" : ""}`}>
                         <ul className="tablet_burger_icons">
                             <li className="search_icon"><img src={search} alt="search" /></li>
                             <li><img className="img2" src={user} alt="myaccount" /></li>
@@ -67,7 +67,7 @@ const NavBar = () => {
                             </li>
                         </ul>
                         <ul className="tablet_burger_nav">
-                            <NavLink to="/" className="navlink_nav">
+                            <NavLink to="/" className="navlink_burger">
                                 <li className="isActive">
                                     Footwear
                                     <div className="dot"></div>    
